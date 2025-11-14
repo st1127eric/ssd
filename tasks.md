@@ -27,4 +27,4 @@
 - [x] 測試遊戲功能
 - [x] 優化視覺效果
 - [x] 撰寫 README 說明
-- [ ] 部署到 GitHub Pages
+- [x] 部署到 GitHub Pages

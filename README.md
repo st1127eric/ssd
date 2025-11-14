@@ -14,7 +14,7 @@
 
 ### 線上遊玩
 
-訪問 GitHub Pages：（待部署後填入）
+訪問 GitHub Pages：https://st1127eric.github.io/ssd/
 
 ### 本地運行
 
