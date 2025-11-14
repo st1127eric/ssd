@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貪食蛇遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐍 貪食蛇遊戲</h1>
+        
+        <div class="game-info">
+            <div class="score-panel">
+                <div class="score-item">
+                    <span class="label">分數：</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">最高分：</span>
+                    <span id="highScore">0</span>
+                </div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">開始遊戲</button>
+            <button id="pauseBtn" class="btn btn-secondary" disabled>暫停</button>
+        </div>
+
+        <div class="instructions">
+            <h3>遊戲說明</h3>
+            <p>🎮 使用方向鍵控制蛇的移動</p>
+            <p>🍎 吃到食物可以增加分數和長度</p>
+            <p>💥 撞到牆壁或自己就會遊戲結束</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
